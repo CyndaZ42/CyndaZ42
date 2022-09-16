@@ -1,0 +1,8 @@
+body {
+  animation: 0.5s fadein;
+}
+
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
