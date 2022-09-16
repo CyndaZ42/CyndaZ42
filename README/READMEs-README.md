@@ -7,6 +7,7 @@
 ---
 ## Table of Contents
 [Technologies Used](#technologies-used)  
+[Resources Used](#resources-used)  
 [Description](#description)  
 [Setup/Installation Requirements](#setup-and-installation-requirements)  
 [Known Bugs](#known-bugs)  
@@ -17,6 +18,13 @@
 
 * _MarkDown (GitHub Flavored)_
 
+---
+## Resources Used
+_In order of appearance_
+
+* [REHeader](https://reheader.glitch.me/home)
+* [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+* [DEVICON](https://devicon.dev/)
 ---
 ## Description
 
