@@ -1,21 +1,20 @@
 {
-  "name": "template-repo",
-  "version": "1.0.0",
+  "name": "zac-waggoner-portfolio",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CyndaZ42/Template-Repo.git"
+    "url": "https://github.com/CyndaZ42/CyndaZ42.git"
   },
   "scripts": {
     "build": "webpack --mode=development",
     "start": "npm run build & webpack-dev-server --open --mode development",
-    "lint": "eslint src/*.js",
-    "test": "jest --coverage"
+    "lint": "eslint src/*.js"
   },
   "keywords": [],
   "author": "Zachary Waggoner",
-  "license": "MIT",
+  "license": "GNU GPLv3",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
