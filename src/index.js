@@ -6,13 +6,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 //Functions
 
-//Document Ready
-$(document).ready(function(){
-  knownLanguages(data.languages);
-});
-
 function knownLanguages(languages) {
   languages.forEach(element => {
     $("#knownLanguages").append(`<img src="${element.src}" alt="${element.name}" width="40" height="40"/>`)
   });
 }
+
+/* function loading() {
+  $("#loading").remove();
+}
+  setTimeout(loading, 4000); */
+  
+//Document Ready
+$(document).ready(function(){
+
+  knownLanguages(data.languages);
+});
