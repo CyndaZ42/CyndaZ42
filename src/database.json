@@ -1,0 +1,16 @@
+{
+  "languages":[
+    {
+      "name": "HTML5",
+      "src": "assets/images/languages/html5.svg"
+    },
+    {
+      "name": "C#",
+      "src": "assets/images/languages/csharp.svg"
+    },
+    {
+      "name": "C++",
+      "src": "assets/images/languages/cplusplus.svg"
+    }
+  ]
+}
