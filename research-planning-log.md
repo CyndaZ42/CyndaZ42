@@ -6,3 +6,4 @@
 * 1:00 pm: Setup repository
 * 2:00 pm: Started on readme(will be the outline for the website)
 * 4:00 pm: Started notes for Webpage version to make updating easier
+* 5:30 pm: Created first build of webpage

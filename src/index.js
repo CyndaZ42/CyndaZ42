@@ -1,5 +1,5 @@
 //Import Statments
-const data = require('./../database.json');
+const data = require('./database.json');
 import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
