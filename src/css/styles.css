@@ -1,8 +1,28 @@
-body {
-  animation: 0.5s fadein;
+/* 
+Theme: Prussian
+  bg_color: #272822,
+  txt_color_1: #bddfff,
+  txt_color_2: #6e93b5,
+  txt_color_3: #38a0ff
+*/
+:root{
+  --bg-color: #172f45;
+  --txt-primary: #bddfff;
+  --txt-secondary: #6e93b5;
+  --txt-tertiary: #38a0ff;
 }
 
 @keyframes fadein {
   from {opacity: 0;}
   to {opacity: 1;}
+}
+
+body {
+  animation: 0.5s fadein;
+  background-color: var(--bg-color);
+  color: var(--txt-secondary);
+}
+
+.header {
+  color: var(--txt-primary);
 }
