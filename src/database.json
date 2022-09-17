@@ -1,16 +1,56 @@
 {
   "languages":[
     {
+      "name": "Arduino",
+      "src": "./assets/images/languages/arduino.svg"
+    },
+    {
       "name": "HTML5",
-      "src": "assets/images/languages/html5.svg"
+      "src": "./assets/images/languages/html5.svg"
     },
     {
       "name": "C#",
-      "src": "assets/images/languages/csharp.svg"
+      "src": "./assets/images/languages/csharp.svg"
     },
     {
       "name": "C++",
-      "src": "assets/images/languages/cplusplus.svg"
+      "src": "./assets/images/languages/cplusplus.svg"
+    },
+    {
+      "name": "Bootstrap",
+      "src": "./assets/images/languages/bootstrap.svg"
+    },
+    {
+      "name": "CSS",
+      "src": "./assets/images/languages/css3.svg"
+    },
+    {
+      "name": "dotNET",
+      "src": "./assets/images/languages/dot-net.svg"
+    },
+    {
+      "name": "GitHub",
+      "src": "./assets/images/languages/github.svg"
+    },
+    {
+      "name": "JavaScript",
+      "src": "./assets/images/languages/javascript.svg"
+    },
+    {
+      "name": "jQuery",
+      "src": "./assets/images/languages/jquery.svg"
+    },
+    {
+      "name": "Markdown",
+      "src": "./assets/images/languages/markdown.svg"
+    },
+    {
+      "name": "mySQL",
+      "src": "./assets/images/languages/mysql.svg"
+    },
+    {
+      "name": "Webpack",
+      "src": "./assets/images/languages/webpack.svg"
     }
   ]
 }

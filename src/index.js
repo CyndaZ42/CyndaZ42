@@ -8,7 +8,7 @@ import './css/styles.css';
 
 //Document Ready
 $(document).ready(function(){
-  knownLanguages(data.languages)
+  knownLanguages(data.languages);
 });
 
 function knownLanguages(languages) {
