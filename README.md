@@ -20,5 +20,6 @@
 <h2 align="center"> Here's what I'm learning right now </h2>
 <div align="center">
 <img src="README/images/languages/react.svg" alt="React" width="40" height="40">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" width="40" height="40"/>
 </div>
 
