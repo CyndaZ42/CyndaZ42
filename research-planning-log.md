@@ -7,3 +7,8 @@
 * 2:00 pm: Started on readme(will be the outline for the website)
 * 4:00 pm: Started notes for Webpage version to make updating easier
 * 5:30 pm: Created first build of webpage
+
+### Friday, 09/23
+* 8:20 am: Update to webpack 5.74
+* 10:30 am: Reasearch and implement html layout file
+* 11:30 am: add more content to README and webpage
