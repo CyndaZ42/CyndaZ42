@@ -1,56 +1,66 @@
 {
-  "languages":[
+  "knownLanguages":[
     {
       "name": "Arduino",
-      "src": "assets/images/languages/arduino.svg"
-    },
-    {
-      "name": "HTML5",
-      "src": "assets/images/languages/html5.svg"
-    },
-    {
-      "name": "C#",
-      "src": "assets/images/languages/csharp.svg"
-    },
-    {
-      "name": "C++",
-      "src": "assets/images/languages/cplusplus.svg"
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg"
     },
     {
       "name": "Bootstrap",
-      "src": "assets/images/languages/bootstrap.svg"
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+    },
+    {
+      "name": "C++",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+    },
+    {
+      "name": "C#",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
     },
     {
       "name": "CSS",
-      "src": "assets/images/languages/css3.svg"
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
     },
     {
       "name": "dotNET",
-      "src": "assets/images/languages/dot-net.svg"
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg"
     },
     {
       "name": "GitHub",
-      "src": "assets/images/languages/github.svg"
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+    },
+    {
+      "name": "HTML5",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
     },
     {
       "name": "JavaScript",
-      "src": "assets/images/languages/javascript.svg"
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
     },
     {
       "name": "jQuery",
-      "src": "assets/images/languages/jquery.svg"
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg"
     },
     {
       "name": "Markdown",
-      "src": "assets/images/languages/markdown.svg"
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg"
     },
     {
       "name": "mySQL",
-      "src": "assets/images/languages/mysql.svg"
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
     },
     {
       "name": "Webpack",
-      "src": "assets/images/languages/webpack.svg"
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
+    }
+  ],
+  "currentlyLearning": [
+    {
+      "name": "React",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+      "name": "Firebase",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
     }
   ]
 }

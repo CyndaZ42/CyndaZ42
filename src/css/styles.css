@@ -26,3 +26,8 @@ body {
 .header {
   color: var(--txt-primary);
 }
+
+.navBar {
+  padding-left: 3%;
+  border-bottom: var(--txt-tertiary);
+}

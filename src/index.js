@@ -12,6 +12,12 @@ function knownLanguages(languages) {
   });
 }
 
+function currentlyLearning(languages) {
+  languages.forEach(element => {
+    $("#currentlyLearning").append(`<img src="${element.src}" alt="${element.name}" width="40" height="40"/>`);
+  });
+}
+
 /* function loading() {
   $("#loading").remove();
 }
@@ -19,6 +25,6 @@ function knownLanguages(languages) {
 
 //Document Ready
 $(document).ready(function(){
-
-  knownLanguages(data.languages);
+  knownLanguages(data.knownLanguages);
+  currentlyLearning(data.currentlyLearning);
 });
