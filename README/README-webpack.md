@@ -13,6 +13,5 @@ npm install dotenv-webpack --save-dev
 npm install jquery
 npm install popper.js
 npm install html-loader --save-dev
-
-
 npm install clean-webpack-plugin --save-dev
+npm add html-webpack-partials-plugin --save-dev

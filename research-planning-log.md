@@ -11,5 +11,6 @@
 ### Friday, 09/23
 * 8:20 am: Update to webpack 5.74
 * 10:30 am: Reasearch and implement html layout file
-* 11:30 am: add more content to README and webpage
+* 11:30 am: add more content to README
 * 12:40 pm: fix webpack dev server
+* 1:20 pm: add content to html and fix header

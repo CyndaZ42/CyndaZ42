@@ -1,6 +1,7 @@
 const path = require('path');
 const Dotenv = require('dotenv-webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
@@ -20,6 +21,10 @@ module.exports = {
       title: 'Zachary Waggoner',
       template: './src/index.html',
       inject: 'body'
+    }),
+    new HtmlWebpackPartialsPlugin({
+      path: './src/header.html',
+      priority: 'high'
     }),
     new Dotenv()
   ],
