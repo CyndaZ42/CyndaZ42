@@ -8,7 +8,7 @@ import './css/styles.css';
 
 function knownLanguages(languages) {
   languages.forEach(element => {
-    $("#knownLanguages").append(`<img src="${element.src}" alt="${element.name}" width="40" height="40"/>`)
+    $("#knownLanguages").append(`<img src="${element.src}" alt="${element.name}" width="40" height="40"/>`);
   });
 }
 
@@ -16,7 +16,7 @@ function knownLanguages(languages) {
   $("#loading").remove();
 }
   setTimeout(loading, 4000); */
-  
+
 //Document Ready
 $(document).ready(function(){
 
