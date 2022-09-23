@@ -13,3 +13,4 @@ npm install @babel/plugin-transform-modules-commonjs --save-dev
 npm install dotenv-webpack --save-dev
 npm install jquery
 npm install popper.js
+npm install html-loader --save-dev
