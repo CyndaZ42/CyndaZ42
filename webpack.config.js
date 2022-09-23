@@ -26,13 +26,13 @@ module.exports = {
       //  collapseWhitespace: true
       //},
       //favicon: '.src/assets/favicon.ico'
-  
     }),
     new HtmlWebpackPlugin({
       title: 'Zachary Waggoner',
+      template: './src/page2.html',
       filename: 'page2.html',
       inject: "body",
-      publicPath: '/page2'
+      //publicPath: '/page2'
       //minify: {
       //  removeComments: true,
       //  collapseWhitespace: true

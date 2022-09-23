@@ -18,6 +18,10 @@ function currentlyLearning(languages) {
   });
 }
 
+// function makeHeader() {
+//   $("#navBar").
+// }
+
 /* function loading() {
   $("#loading").remove();
 }
