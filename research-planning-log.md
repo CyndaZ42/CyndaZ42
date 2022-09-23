@@ -14,3 +14,4 @@
 * 11:30 am: add more content to README
 * 12:40 pm: fix webpack dev server
 * 1:20 pm: add content to html and fix header
+* 1:50 pm: research multi page websites with webpack

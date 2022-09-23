@@ -21,6 +21,22 @@ module.exports = {
       title: 'Zachary Waggoner',
       template: './src/index.html',
       inject: 'body'
+      //minify: {
+      //  removeComments: true,
+      //  collapseWhitespace: true
+      //},
+      //favicon: '.src/assets/favicon.ico'
+  
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Zachary Waggoner',
+      filename: 'page2.html',
+      inject: "body",
+      publicPath: '/page2'
+      //minify: {
+      //  removeComments: true,
+      //  collapseWhitespace: true
+      //}
     }),
     new HtmlWebpackPartialsPlugin({
       path: './src/header.html',
