@@ -19,9 +19,12 @@ function currentlyLearning(languages) {
 }
 
 function makeHeader(pages) {
+  let styles = "menu-item";
+  $("#menu-bar").append('<ul>');
   pages.forEach(element => {
-    $("#menu").append(`<li><a href="#">Home</a></li>`)
+    $("#menu-bar").append(`<li class="menu"><a class="${styles}" href="${element.link}">${element.name}</a></li>`);
   });
+  $("#menu-bar").append('</ul>');
 }
 
 /* function loading() {
@@ -31,6 +34,7 @@ function makeHeader(pages) {
 
 //Document Ready
 $(document).ready(function(){
+  makeHeader(data.pages);
   knownLanguages(data.knownLanguages);
   currentlyLearning(data.currentlyLearning);
 });

@@ -62,5 +62,19 @@
       "name": "Firebase",
       "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
     }
+  ],
+  "pages": [
+    {
+      "name": "Home",
+      "link": "/"
+    },
+    {
+      "name": "Resume",
+      "link": "/"
+    },
+    {
+      "name": "page2",
+      "link": "/page2.html"
+    }
   ]
 }
