@@ -6,7 +6,9 @@ Theme: Prussian
   txt_color_3: #38a0ff
 */
 :root{
-  --bg-color: #172f45;
+  --bg-primary: #172f45;
+  --bg-secondary: #23496b;
+  --bg-tertiary: #306391;
   --txt-primary: #bddfff;
   --txt-secondary: #6e93b5;
   --txt-tertiary: #38a0ff;
@@ -19,7 +21,7 @@ Theme: Prussian
 
 body {
   animation: 0.5s fadein;
-  background-color: var(--bg-color);
+  background-color: var(--bg-primary);
   color: var(--txt-secondary);
 }
 
@@ -27,7 +29,8 @@ body {
   color: var(--txt-primary);
 }
 
-.navBar {
-  padding-left: 3%;
-  border-bottom: var(--txt-tertiary);
+.navbar {
+  color: var(--txt-tertiary);
+  background-color: var(--bg-secondary);
+  border-bottom: var(--bg-tertiary), solid;
 }
