@@ -11,7 +11,8 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
   devServer: {               
-    contentBase: path.join'./dist'    
+    port: 3000,
+    open: true
   },
   plugins: [
     new CleanWebpackPlugin(),

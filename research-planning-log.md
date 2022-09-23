@@ -12,3 +12,4 @@
 * 8:20 am: Update to webpack 5.74
 * 10:30 am: Reasearch and implement html layout file
 * 11:30 am: add more content to README and webpage
+* 12:40 pm: fix webpack dev server
