@@ -18,9 +18,11 @@ function currentlyLearning(languages) {
   });
 }
 
-// function makeHeader() {
-//   $("#navBar").
-// }
+function makeHeader(pages) {
+  pages.forEach(element => {
+    $("#menu").append(`<li><a href="#">Home</a></li>`)
+  });
+}
 
 /* function loading() {
   $("#loading").remove();

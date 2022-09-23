@@ -25,12 +25,21 @@ body {
   color: var(--txt-secondary);
 }
 
-.header {
+.opening {
   color: var(--txt-primary);
 }
 
 .navbar {
-  color: var(--txt-tertiary);
   background-color: var(--bg-secondary);
   border-bottom: var(--bg-tertiary), solid;
+}
+
+.nav-link {
+  font-size: large;
+  padding: 10px;
+  color: var(--txt-tertiary);
+}
+
+.navbar-nav {
+
 }
