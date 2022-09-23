@@ -48,11 +48,15 @@ module.exports = {
           }
         ]
       },
-      {
-        test:/\.html$/,
-        use: [
-          'html-loader'
-        ]
+      { 
+        test: /\.(html)$/,
+        include: path.join(__dirname, 'src/views'),
+        use: {
+          loader: 'html-loader',
+          options: {
+            interpolate: true
+          }
+        }
       },
       {
         test: /\.svg$/,
