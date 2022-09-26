@@ -15,4 +15,5 @@
 * 12:40 pm: fix webpack dev server
 * 1:20 pm: add content to html and fix header
 * 1:50 pm: research multi page websites with webpack
-* 2:50 pm: work on styling and layout
+* 2:50 pm: implement multiple pages
+* 3:45 pm: work on styling and layout
