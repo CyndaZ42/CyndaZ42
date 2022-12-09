@@ -19,3 +19,4 @@
 * 3:45 pm: work on styling and layout
 
 ### Friday 12/9
+* 10:00 am: work on css styling
