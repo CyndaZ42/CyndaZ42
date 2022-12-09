@@ -44,7 +44,7 @@ body {
   color: var(--txt-tertiary);
 }
 
-.navbar {
+.menu-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
