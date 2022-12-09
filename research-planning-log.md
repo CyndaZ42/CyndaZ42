@@ -17,3 +17,5 @@
 * 1:50 pm: research multi page websites with webpack
 * 2:50 pm: implement multiple pages
 * 3:45 pm: work on styling and layout
+
+### Friday 12/9
