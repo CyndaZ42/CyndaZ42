@@ -21,3 +21,4 @@
 ### Friday 12/9
 * 10:00 am: work on css styling
 * 11:30 am: bug fixing
+* 1:00 - 2:00 pm: lunch
