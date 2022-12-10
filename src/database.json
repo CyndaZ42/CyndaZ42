@@ -72,13 +72,14 @@
       "name": "Resume",
       "link": "/"
     },
-    {
-      "name": "page2",
-      "link": "/page2.html"
-    },
+
     {
       "name": "My Projects",
       "link": "https://github.com/cyndaz42?tab=repositories"
+    },
+    {
+      "name": "page2",
+      "link": "/page2.html"
     }
   ]
 }
