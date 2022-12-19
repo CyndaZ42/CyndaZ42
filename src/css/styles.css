@@ -30,7 +30,7 @@ body {
 }
 
 .menu {
-  background-color: var(--bg-secondary);
+  background-color: var(--bg-tertiary);
   border-bottom: var(--bg-tertiary), solid;
 }
 
