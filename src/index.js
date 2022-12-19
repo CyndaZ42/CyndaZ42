@@ -20,11 +20,13 @@ function currentlyLearning(languages) {
 
 function makeHeader(pages) {
   let styles = "menu-item";
-  $(".menu-bar").append('<ul>');
+  //$(".menu-bar").append('<ul>');
+  $(".menu-bar").append(`<p class="menu">`);
   pages.forEach(element => {
-    $(".menu-bar").append(`<li class="menu"><a class="${styles}" href="${element.link}">${element.name}</a></li>`);
+    $(".menu-bar").append(`<div><a class="${styles}" href="${element.link}">${element.name}</a></div>`);
   });
-  $(".menu-bar").append('</ul>');
+  $(".menu-bar").append(`</p>`);
+  //$(".menu-bar").append('</ul>');
 }
 
 /* function loading() {
