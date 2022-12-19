@@ -13,8 +13,9 @@ function knownLanguages(languages) {
 }
 
 function currentlyLearning(languages) {
+  let styles = "";
   languages.forEach(element => {
-    $("#currentlyLearning").append(`<img src="${element.src}" alt="${element.name}" width="40" height="40"/>`);
+    $("#currentlyLearning").append(`<img src="${element.src}" alt="${element.name}"  width="40" height="40"/>`);
   });
 }
 
