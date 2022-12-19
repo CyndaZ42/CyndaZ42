@@ -25,24 +25,19 @@ body {
   color: var(--txt-secondary);
 }
 
+a {
+  color: white;
+}
+
 .opening {
   color: var(--txt-primary);
 }
 
-.menu {
-  background-color: var(--bg-tertiary);
-  border-bottom: var(--bg-tertiary), solid;
-}
-
-.menu a {
-  display: inline;
-  background-color: var(--bg-tertiary);
-}
-
 .menu-item {
+  display: inline;
   font-size: large;
   padding: 10px;
-  color: var(--txt-tertiary);
+  color: whitesmoke;
 }
 
 .menu-bar {
@@ -50,9 +45,12 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  background-color: var(--bg-tertiary);
+  border-bottom: solid;
+  border-width: 1px;
 }
 
-br {
-  padding-top: 12px;
-  padding-bottom: 12px;
+.language-icon {
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
