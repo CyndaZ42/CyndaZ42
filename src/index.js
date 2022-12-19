@@ -13,7 +13,7 @@ function knownLanguages(languages) {
 }
 
 function currentlyLearning(languages) {
-  let styles = "lang";
+  let styles = "languages";
   languages.forEach(element => {
     $("#currentlyLearning").append(`<img src="${element.src}" alt="${element.name}"  width="40" height="40"/>`);
   });
