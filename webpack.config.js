@@ -29,7 +29,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       title: 'Zachary Waggoner',
-      template: './src/page2.html',
+      template: './src/pages/page2.html',
       filename: 'page2.html',
       inject: "body",
       //publicPath: '/page2'
@@ -39,7 +39,7 @@ module.exports = {
       //}
     }),
     new HtmlWebpackPartialsPlugin({
-      path: './src/header.html',
+      path: './src/layout/header.html',
       priority: 'high'
     }),
     new Dotenv()
