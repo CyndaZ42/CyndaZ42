@@ -34,8 +34,9 @@ body {
   border-bottom: var(--bg-tertiary), solid;
 }
 
-.menu li {
+.menu a {
   display: inline;
+  background-color: var(--bg-tertiary);
 }
 
 .menu-item {
@@ -49,4 +50,9 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+}
+
+br {
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
