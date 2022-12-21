@@ -39,8 +39,8 @@ module.exports = {
       //}
     }),
     new HtmlWebpackPlugin({
-      title: 'Zachary Waggoner',
-      template: './src/layout/header.html',
+      title: 'Zachary Waggoner - Resume',
+      template: './src/pages/resume.html',
       filename: 'resume.html',
       inject: "body",
       //publicPath: '/resume.html'
