@@ -29,10 +29,21 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       title: 'Zachary Waggoner',
-      template: './src/pages/page2.html',
+      template: './src/layout/header.html',
       filename: 'page2.html',
       inject: "body",
       //publicPath: '/page2'
+      //minify: {
+      //  removeComments: true,
+      //  collapseWhitespace: true
+      //}
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Zachary Waggoner',
+      template: './src/layout/header.html',
+      filename: 'resume.html',
+      inject: "body",
+      //publicPath: '/resume.html'
       //minify: {
       //  removeComments: true,
       //  collapseWhitespace: true

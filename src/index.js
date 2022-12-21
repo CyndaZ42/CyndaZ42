@@ -8,7 +8,7 @@ import './css/styles.css';
 
 function knownLanguages(languages) {
   let styles = "language-icon";
-  let size = "60"
+  let size = "60";
   languages.forEach(element => {
     $("#knownLanguages").append(`<img src="${element.src}" alt="${element.name}" class="${styles}" width="${size}" height="${size}"/>`);
   });
@@ -16,7 +16,7 @@ function knownLanguages(languages) {
 
 function currentlyLearning(languages) {
   let styles = "language-icon";
-  let size = "60"
+  let size = "60";
   languages.forEach(element => {
     $("#currentlyLearning").append(`<img src="${element.src}" alt="${element.name}" class="${styles}" width="${size}" height="${size}"/>`);
   });

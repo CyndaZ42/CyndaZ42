@@ -70,7 +70,7 @@
     },
     {
       "name": "Resume",
-      "link": "https://docs.google.com/document/d/1G7YCEbchwzf7Gv_9FIxaDFIoZrh_IlfDNkijBdi08VA/edit?usp=sharing"
+      "link": "/resume.html"
     },
 
     {
@@ -79,7 +79,7 @@
     },
     {
       "name": "page2",
-      "link": "/pages/page2.html"
+      "link": "/page2.html"
     }
   ]
 }
