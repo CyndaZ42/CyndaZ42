@@ -10,14 +10,15 @@ function knownLanguages(languages) {
   let styles = "language-icon";
   let size = "60"
   languages.forEach(element => {
-    $("#knownLanguages").append(`<img src="${element.src}" alt="${element.name}" class="${styles}" width="40" height="40"/>`);
+    $("#knownLanguages").append(`<img src="${element.src}" alt="${element.name}" class="${styles}" width="${size}" height="${size}"/>`);
   });
 }
 
 function currentlyLearning(languages) {
   let styles = "language-icon";
+  let size = "60"
   languages.forEach(element => {
-    $("#currentlyLearning").append(`<img src="${element.src}" alt="${element.name}" class="${styles}" width="60" height="60"/>`);
+    $("#currentlyLearning").append(`<img src="${element.src}" alt="${element.name}" class="${styles}" width="${size}" height="${size}"/>`);
   });
 }
 
