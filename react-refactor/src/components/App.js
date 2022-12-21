@@ -1,10 +1,12 @@
 import React from "react";
 import Header from "./Header";
+import db from "../assets/database.json"
 
 function App() {
   return (
     <React.Fragment>
-      <Header />
+      <Header 
+        pages={db.pages} />
     </React.Fragment>
   );
 }

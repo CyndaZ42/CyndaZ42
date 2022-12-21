@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* 
+Theme: Prussian
+  bg_color: #272822,
+  txt_color_1: #bddfff,
+  txt_color_2: #6e93b5,
+  txt_color_3: #38a0ff
+*/
+:root{
+  --bg-primary: #172f45;
+  --bg-secondary: #23496b;
+  --bg-tertiary: #306391;
+  --txt-primary: #bddfff;
+  --txt-secondary: #6e93b5;
+  --txt-tertiary: #38a0ff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+body {
+  animation: 0.5s fadein;
+  background-color: var(--bg-primary);
+  color: var(--txt-secondary);
+}
+
+a {
+  color: white;
+}
+
+.opening {
+  color: var(--txt-primary);
+}
+
+.menu-item {
+  display: inline;
+  font-size: large;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+.menu-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: var(--bg-tertiary);
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+.language-icon {
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.languages {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+/* Resume */
+
+#skills {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
 }
