@@ -5,19 +5,17 @@ function Header(props) {
   const { pages } = props;
   return (
     <React.Fragment>
-      <header class="header">
-        <nav class="menu-bar">
-          <p class="menu">
+      <header className="header">
+        <nav className="menu-bar">
+          <div className="menu">
           {props.pages.map((page) => 
-            <div>
-              <a 
-              className="menu-item"
-              href={page.link}>
-                {page.name}
-              </a>
-            </div>
+            <a 
+            className="menu-item"
+            href={page.link}>
+              {page.name}
+            </a>
           )}
-          </p>
+          </div>
         </nav>
       </header>
     </React.Fragment>
