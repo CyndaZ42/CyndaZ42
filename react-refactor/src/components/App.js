@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState } from 'react';
 import Header from "./Header";
-import db from "../assets/database.json"
+import PageControl from "./PageControl";
+import db from "../assets/database.json";
 
 function App() {
+  const [selectedPage, setSelectedPage] = useState(null);
+  
   return (
     <React.Fragment>
       <Header 
         pages={db.pages} />
-      
+      <PageControl />
     </React.Fragment>
   );
 }

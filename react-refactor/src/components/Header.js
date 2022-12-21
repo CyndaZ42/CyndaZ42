@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import PropTypes from "prop-types";
 
 function Header(props) {
@@ -9,11 +10,10 @@ function Header(props) {
         <nav className="menu-bar">
           <div className="menu">
           {props.pages.map((page) => 
-            <a 
-            className="menu-item"
-            href={page.link}>
+            <Link to={page.link}
+            className="menu-item">
               {page.name}
-            </a>
+            </Link>
           )}
           </div>
         </nav>
