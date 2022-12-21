@@ -28,8 +28,8 @@ module.exports = {
       //favicon: '.src/assets/favicon.ico'
     }),
     new HtmlWebpackPlugin({
-      title: 'Zachary Waggoner',
-      template: './src/layout/header.html',
+      title: 'Zachary Waggoner - Page 2',
+      template: './src/pages/resume.html',
       filename: 'page2.html',
       inject: "body",
       //publicPath: '/page2'

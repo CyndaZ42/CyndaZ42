@@ -81,5 +81,10 @@
       "name": "page2",
       "link": "/page2.html"
     }
+  ],
+  "skills": [
+    {
+      "name": "git"
+    }
   ]
 }
