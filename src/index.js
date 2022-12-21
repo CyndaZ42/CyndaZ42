@@ -1,5 +1,5 @@
 //Import Statments
-const data = require('./database.json');
+const data = require('./assets/database.json');
 import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,27 +7,27 @@ import './css/styles.css';
 //Functions
 
 function knownLanguages(languages) {
+  let styles = "language-icon";
+  let size = "60"
   languages.forEach(element => {
-    $("#knownLanguages").append(`<img src="${element.src}" alt="${element.name}" width="40" height="40"/>`);
+    $("#knownLanguages").append(`<img src="${element.src}" alt="${element.name}" class="${styles}" width="40" height="40"/>`);
   });
 }
 
 function currentlyLearning(languages) {
-  let styles = "languages";
+  let styles = "language-icon";
   languages.forEach(element => {
-    $("#currentlyLearning").append(`<img src="${element.src}" alt="${element.name}" class="${styles}" width="40" height="40"/>`);
+    $("#currentlyLearning").append(`<img src="${element.src}" alt="${element.name}" class="${styles}" width="60" height="60"/>`);
   });
 }
 
 function makeHeader(pages) {
   let styles = "menu-item";
-  //$(".menu-bar").append('<ul>');
   $(".menu-bar").append(`<p class="menu">`);
   pages.forEach(element => {
     $(".menu-bar").append(`<div><a class="${styles}" href="${element.link}">${element.name}</a></div>`);
   });
   $(".menu-bar").append(`</p>`);
-  //$(".menu-bar").append('</ul>');
 }
 
 /* function loading() {
