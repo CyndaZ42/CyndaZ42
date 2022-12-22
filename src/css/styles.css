@@ -12,7 +12,18 @@ Theme: Prussian
   --txt-primary: #bddfff;
   --txt-secondary: #6e93b5;
   --txt-tertiary: #84CAE7;
-
+  --alt-b-jean: #38a0ff;
+  --alt-c-green: #22AAA1;
+  --alt-turquoise: #74E7DB;
+  --alt-magic-mint: #B2EDC5;
+  --alt-opal: #9DC0BC;
+  --alt-aero-blue: #BAFFDF;
+  --grey-middle: #8A817C;
+  --grey-silver: #BCB8B1;
+  --grey-isabelline: #F4F3EE;
+  --accent-tangerine: #F7A072;
+  --accent-l-green: #9CE37D;
+  --accent-asparagus: #87B37A;
 }
 
 @keyframes fadein {
@@ -66,18 +77,35 @@ a {
   margin: 3%;
 }
 
-.resume-header {
+.resume-header, .resume h3 {
   color: var(--txt-primary);
 }
 
 .edu-summary {
-  color: var(--txt-tertiary);
+  color: var(--alt-opal);
   margin-left: 5%;
   margin-right: 10%;
 }
 
 #skills {
+  color: var(--alt-aero-blue);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(70px, auto);
+}
+
+.resume h1 {
+  color: var(--alt-aero-blue);
+}
+
+.resume h2 {
+  color: var(--alt-magic-mint);
+}
+
+.resume li {
+  color: var(--txt-tertiary);
+}
+
+.resume h4 {
+  color: var(--alt-opal);
 }

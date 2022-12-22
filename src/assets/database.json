@@ -101,7 +101,7 @@
       "name": "Git"
     },
     {
-      "name": "Test Driven Development"
+      "name": "Webpack"
     },
     {
       "name": "C++"
@@ -140,7 +140,7 @@
       "name": "HTML"
     },
     {
-      "name": "Webpack"
+      "name": "Test Driven Development"
     }
   ]
 }

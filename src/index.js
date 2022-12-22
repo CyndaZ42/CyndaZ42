@@ -42,13 +42,6 @@ function currentlyLearning(languages) {
 
 
   //Resume
-function makeSkills(skills) {
-  let styles = "";
-  skills.forEach(element => {
-    $("#skills").append(`<p class="${styles}">${element.name}</p>`);
-  });
-}
-
 function makeEducation(schools) {
   schools.forEach(element => {
     $("#education").append(`<h4>${element.name}</h4>`);
@@ -56,6 +49,13 @@ function makeEducation(schools) {
     $("#education").append(`<h6>${element.date}</h6>`);
     $("#education").append(`<p class="edu-summary">${element.summary}</p>`);
     $("#education").append(`<br>`);
+  });
+}
+
+function makeSkills(skills) {
+  let styles = "";
+  skills.forEach(element => {
+    $("#skills").append(`<p class="${styles}">${element.name}</p>`);
   });
 }
 
