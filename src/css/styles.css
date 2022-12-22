@@ -11,7 +11,8 @@ Theme: Prussian
   --bg-tertiary: #306391;
   --txt-primary: #bddfff;
   --txt-secondary: #6e93b5;
-  --txt-tertiary: #38a0ff;
+  --txt-tertiary: #84CAE7;
+
 }
 
 @keyframes fadein {
@@ -26,7 +27,7 @@ body {
 }
 
 a {
-  color: white;
+  color: var(--grey-isabelline);
 }
 
 .opening {
@@ -37,7 +38,7 @@ a {
   display: inline;
   font-size: large;
   padding: 10px;
-  color: whitesmoke;
+  color: var(--grey-isabelline);
 }
 
 .menu-bar {
@@ -61,6 +62,19 @@ a {
 }
 
 /* Resume */
+.resume {
+  margin: 3%;
+}
+
+.resume-header {
+  color: var(--txt-primary);
+}
+
+.edu-summary {
+  color: var(--txt-tertiary);
+  margin-left: 5%;
+  margin-right: 10%;
+}
 
 #skills {
   display: grid;
