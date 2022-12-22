@@ -50,7 +50,13 @@ a {
   font-size: large;
   padding: 10px;
   color: var(--grey-isabelline);
-  animation: none !important;
+  transition-property: color;
+  transition-duration: 30ms;
+  transition-delay: 15ms;
+}
+
+.menu-item:hover {
+  color: var(--accent-tangerine);
 }
 
 .menu-bar {
@@ -61,7 +67,18 @@ a {
   background-color: var(--bg-tertiary);
   border-bottom: solid;
   border-width: 1px;
-  animation: none !important;
+}
+
+/* Mouse Glow */
+.glow {
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  background: #c00;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 1s;
 }
 
 /* Homepage */
@@ -69,11 +86,27 @@ a {
   color: var(--txt-primary);
   font-size: 69px;
   margin-bottom: 10%;
+  transition-property: font-size;
+  transition-duration: 180ms;
+  transition-delay: 12ms;
+}
+
+.opening:hover {
+  font-size: 75px;
 }
 
 .tagline {
   color: var(--txt-tertiary);
   margin-bottom: 10%;
+  transition-property: font-size margin;
+  transition-duration: 200s;
+  transition-delay: 1ms;
+  animation-play-state: paused;
+}
+
+.tagline:hover {
+  font-size: 900px;
+  margin: 0%;
 }
 
 .language-icon {

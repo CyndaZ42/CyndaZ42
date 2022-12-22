@@ -73,4 +73,9 @@ $(document).ready(function(){
   makeSkills(data.skills);
   makeEducation(data.education);
   socialLinks(data.socialLinks);
+  const mouseGlow = document.getElementById('mouse');
+  document.addEventListener('click', (ev) => {
+    mouseGlow.style.transform = `translateY(${ev.clientY - 25}px)`;
+    mouseGlow.style.transform += `translateX(${ev.clientX - 25}px)`;
+  }, false);
 });
