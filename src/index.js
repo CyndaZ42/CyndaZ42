@@ -54,7 +54,7 @@ function makeEducation(schools) {
     $("#education").append(`<h4>${element.name}</h4>`);
     $("#education").append(`<li><i>${element.degree}</i></li>`);
     $("#education").append(`<h6>${element.date}</h6>`);
-    $("#education").append(`<p>${element.summary}</p>`);
+    $("#education").append(`<p class="edu-summary">${element.summary}</p>`);
     $("#education").append(`<br>`);
   });
 }
