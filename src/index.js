@@ -8,7 +8,6 @@ import './css/styles.css';
 //Functions
 
   //Global
-  
 function makeHeader(pages) {
   let styles = "menu-item";
   $(".menu-bar").append(`<p class="menu">`);
@@ -20,8 +19,9 @@ function makeHeader(pages) {
 const mouseGlow = document.getElementById('mouse');
 
 function mouseTrail(event) {
-  mouseGlow.style.transform = `translateY(${event.clientY - 25}px)`;
-  mouseGlow.style.transform += `translateX(${event.clientX - 25}px)`;
+  let offset = 75;
+  mouseGlow.style.transform = `translateY(${event.clientY - offset}px)`;
+  mouseGlow.style.transform += `translateX(${event.clientX - offset}px)`;
 }
 /* function loading() {
   $("#loading").remove();
