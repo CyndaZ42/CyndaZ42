@@ -41,10 +41,7 @@ a {
   color: var(--grey-isabelline);
 }
 
-.opening {
-  color: var(--txt-primary);
-}
-
+/* Menu */
 .menu-item {
   display: inline;
   font-size: large;
@@ -62,6 +59,18 @@ a {
   border-width: 1px;
 }
 
+/* Homepage */
+.opening {
+  color: var(--txt-primary);
+  font-size: 69px;
+  margin-bottom: 12%;
+}
+
+.tagline {
+  color: var(--txt-tertiary);
+  padding-bottom: 12%;
+}
+
 .language-icon {
   padding-right: 4px;
   padding-left: 4px;
@@ -70,6 +79,7 @@ a {
 .languages {
   margin-top: 12px;
   margin-bottom: 12px;
+  align-items: center;
 }
 
 /* Resume */

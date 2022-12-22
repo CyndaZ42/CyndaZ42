@@ -28,7 +28,7 @@ function knownLanguages(languages) {
   let styles = "language-icon";
   let size = "70";
   languages.forEach(element => {
-    $("#knownLanguages").append(`<img src="${element.src}" alt="${element.name}" class="${styles}" width="${size}" height="${size}"/>`);
+    $("#known-languages").append(`<img src="${element.src}" alt="${element.name}" class="${styles}" width="${size}" height="${size}"/>`);
   });
 }
 
@@ -36,10 +36,16 @@ function currentlyLearning(languages) {
   let styles = "language-icon";
   let size = "70";
   languages.forEach(element => {
-    $("#currentlyLearning").append(`<img src="${element.src}" alt="${element.name}" class="${styles}" width="${size}" height="${size}"/>`);
+    $("#currently-learning").append(`<img src="${element.src}" alt="${element.name}" class="${styles}" width="${size}" height="${size}"/>`);
   });
 }
 
+function socialLinks(pages) {
+  let size = "70";
+  pages.forEach(element => {
+    $("#social-links").append(`<a href="${element.link}"><img src="${element.src}" alt="${element.name}" width="${size}" height="${size}"/></a>`);
+  });
+}
 
   //Resume
 function makeEducation(schools) {
