@@ -32,7 +32,6 @@ Theme: Prussian
 }
 
 body {
-  animation: 0.5s fadein;
   background-color: var(--bg-primary);
   color: var(--txt-secondary);
 }
@@ -41,12 +40,17 @@ a {
   color: var(--grey-isabelline);
 }
 
+.content {
+  animation: 0.5s fadein;
+}
+
 /* Menu */
 .menu-item {
   display: inline;
   font-size: large;
   padding: 10px;
   color: var(--grey-isabelline);
+  animation: none !important;
 }
 
 .menu-bar {
@@ -57,6 +61,7 @@ a {
   background-color: var(--bg-tertiary);
   border-bottom: solid;
   border-width: 1px;
+  animation: none !important;
 }
 
 /* Homepage */
