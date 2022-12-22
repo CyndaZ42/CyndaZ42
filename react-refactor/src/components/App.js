@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./Header";
-import PageControl from "./PageControl";
+import Home from "./Home";
+import
 import db from "../assets/database.json";
 
 function App() {
@@ -10,7 +12,11 @@ function App() {
     <React.Fragment>
       <Header 
         pages={db.pages} />
-      <PageControl />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </React.Fragment>
   );
 }
