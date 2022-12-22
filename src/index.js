@@ -72,4 +72,5 @@ $(document).ready(function(){
   currentlyLearning(data.currentlyLearning);
   makeSkills(data.skills);
   makeEducation(data.education);
+  socialLinks(data.socialLinks);
 });

@@ -63,12 +63,12 @@ a {
 .opening {
   color: var(--txt-primary);
   font-size: 69px;
-  margin-bottom: 12%;
+  margin-bottom: 10%;
 }
 
 .tagline {
   color: var(--txt-tertiary);
-  padding-bottom: 12%;
+  margin-bottom: 10%;
 }
 
 .language-icon {

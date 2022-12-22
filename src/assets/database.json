@@ -63,6 +63,19 @@
       "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
     }
   ],
+  "socialLinks": [
+    {
+      "name": "linkedin",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg",
+      "link": "https://www.linkedin.com/in/zacwaggoner/"
+
+    },
+    {
+      "name": "GitHub",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      "link": "https://github.com/cyndaz42"
+    }
+  ],
   "pages": [
     {
       "name": "Home",
