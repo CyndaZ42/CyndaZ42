@@ -17,7 +17,12 @@ function makeHeader(pages) {
   });
   $(".menu-bar").append(`</p>`);
 }
+const mouseGlow = document.getElementById('mouse');
 
+function mouseTrail(event) {
+  mouseGlow.style.transform = `translateY(${event.clientY - 25}px)`;
+  mouseGlow.style.transform += `translateX(${event.clientX - 25}px)`;
+}
 /* function loading() {
   $("#loading").remove();
 }
@@ -73,9 +78,5 @@ $(document).ready(function(){
   makeSkills(data.skills);
   makeEducation(data.education);
   socialLinks(data.socialLinks);
-  const mouseGlow = document.getElementById('mouse');
-  document.addEventListener('click', (ev) => {
-    mouseGlow.style.transform = `translateY(${ev.clientY - 25}px)`;
-    mouseGlow.style.transform += `translateX(${ev.clientX - 25}px)`;
-  }, false);
+  document.addEventListener('mousemove', mouseTrail, false);
 });
