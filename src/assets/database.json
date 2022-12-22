@@ -74,7 +74,7 @@
     },
 
     {
-      "name": "My Projects",
+      "name": "Projects",
       "link": "https://github.com/cyndaz42?tab=repositories"
     },
     {
@@ -82,9 +82,65 @@
       "link": "/page2.html"
     }
   ],
+  "education": [
+    {
+      "name": "iTech Preparatory, Vancouver WA",
+      "degree": "High School Diploma with STEM endorsement",
+      "date": "SEPTEMBER 2017 - JUNE 2021",
+      "summary": "At iTech, I learned to build and program robots in C++ for VEX Robotics competitions. I competed in a total of 4 tournaments. I also learned to write programs for Arduinos."
+    },
+    {
+      "name": "Epicodus, Portland OR",
+      "degree": "Certificate in Web and Mobile Development",
+      "date": "MAY 2022 - DECEMBER 2022",
+      "summary": "At Epicodus, I learned to use GitHub to manage the projects we create using HTML, CSS, JavaScript, C# and .NET. I learned about Object-Oriented JavaScript, Asynchrony, APIs, Test-Driven Development, Building Web Applications With C#, and Building Databases with MySQL."
+    }
+  ],
   "skills": [
     {
       "name": "git"
+    },
+    {
+      "name": "Test Driven Development"
+    },
+    {
+      "name": "C++"
+    },
+    {
+      "name": ".NET Framework"
+    },
+    {
+      "name": "MySQL"
+    },
+    {
+      "name": "C#"
+    },
+    {
+      "name": "Agile Development"
+    },
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "CSS"
+    },
+    {
+      "name": "API Calls"
+    },
+    {
+      "name": "jQuery"
+    },
+    {
+      "name": "Pair Programming"
+    },
+    {
+      "name": "React"
+    },
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "Webpack"
     }
   ]
 }
