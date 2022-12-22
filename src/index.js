@@ -45,7 +45,17 @@ function currentlyLearning(languages) {
 function makeSkills(skills) {
   let styles = "";
   skills.forEach(element => {
-    $(".skills").append(`<p class="${styles}">${element.name}</p>`);
+    $("#skills").append(`<p class="${styles}">${element.name}</p>`);
+  });
+}
+
+function makeEducation(schools) {
+  schools.forEach(element => {
+    $("#education").append(`<h4>${element.name}</h4>`);
+    $("#education").append(`<li><i>${element.degree}</i></li>`);
+    $("#education").append(`<h6>${element.date}</h6>`);
+    $("#education").append(`<p>${element.summary}</p>`);
+    $("#education").append(`<br>`);
   });
 }
 
@@ -55,4 +65,5 @@ $(document).ready(function(){
   knownLanguages(data.knownLanguages);
   currentlyLearning(data.currentlyLearning);
   makeSkills(data.skills);
+  makeEducation(data.education);
 });
