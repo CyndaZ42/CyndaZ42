@@ -23,6 +23,7 @@ body {
   animation: 0.5s fadein;
   background-color: var(--bg-primary);
   color: var(--txt-secondary);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
